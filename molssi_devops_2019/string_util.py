@@ -46,7 +46,3 @@ def title_case(sentence):
             ret += sentence[i].lower()
 
     return ret
-
-
-
-    return True
