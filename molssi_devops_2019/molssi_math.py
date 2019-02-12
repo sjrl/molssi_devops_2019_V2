@@ -5,6 +5,36 @@ A sample python package
 Handles the primary functions
 """
 
+def mean(num_list):
+    """
+    Computes the mean of a list of numbers.
+
+    Parameters
+    ----------
+    num_list : list
+        List of numbers.
+
+    Returns
+    -------
+    mean : float
+        Mean of the numbers in num_list.
+    """
+
+    # Check that input it type list
+    if not isinstance(num_list,list):
+        raise TypeError('Invalid input %s - must be type list.'%(num_list))
+
+    # Check that list has length greater than 0
+    if len(num_list) == 0:
+        raise ValueError('Cannot calculate mean of empty list.')
+
+    # Perform the mean
+    total_sum = 0.0
+    for item in num_list:
+        total_sum += item
+    mean = total_sum/len(num_list)
+    return mean
+
 
 def canvas(with_attribution=True):
     """
