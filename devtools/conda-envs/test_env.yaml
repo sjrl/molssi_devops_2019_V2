@@ -8,6 +8,8 @@ dependencies:
     # Testing
   - pytest
   - pytest-cov
+
+    # Other dependencies
   - numpy
 
     # Pip-only installs
