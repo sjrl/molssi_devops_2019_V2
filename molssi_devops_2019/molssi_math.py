@@ -5,6 +5,7 @@ A sample python package
 Handles the primary functions
 """
 
+import numpy as np
 
 def mean(num_list):
     """
