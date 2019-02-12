@@ -12,6 +12,8 @@ This is a sample documentation.
    :caption: Contents:
 
    usage/quickstart
+   modules/molssi_math
+   modules/string_util
 
 
 
