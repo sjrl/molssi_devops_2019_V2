@@ -2,7 +2,7 @@ molssi_devops_2019
 ==============================
 [//]: # (Badges)
 [![Build Status](https://travis-ci.org/sjrl/molssi_devops_2019_V2.svg?branch=master)](https://travis-ci.org/sjrl/molssi_devops_2019_V2)
-[![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/REPLACE_WITH_APPVEYOR_LINK/branch/master?svg=true)](https://ci.appveyor.com/project/REPLACE_WITH_OWNER_ACCOUNT/molssi_devops_2019/branch/master)
+[![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/dkn0xxwthr8wnvnf?svg=true)](https://ci.appveyor.com/project/sjrl/molssi-devops-2019-v2)
 [![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/molssi_devops_2019/branch/master/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/molssi_devops_2019/branch/master)
 
 A sample python package
