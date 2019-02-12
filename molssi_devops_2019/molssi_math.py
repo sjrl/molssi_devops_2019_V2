@@ -5,6 +5,7 @@ A sample python package
 Handles the primary functions
 """
 
+
 def mean(num_list):
     """
     Computes the mean of a list of numbers.
@@ -21,8 +22,8 @@ def mean(num_list):
     """
 
     # Check that input it type list
-    if not isinstance(num_list,list):
-        raise TypeError('Invalid input %s - must be type list.'%(num_list))
+    if not isinstance(num_list, list):
+        raise TypeError('Invalid input %s - must be type list.' % (num_list))
 
     # Check that list has length greater than 0
     if len(num_list) == 0:
@@ -32,7 +33,7 @@ def mean(num_list):
     total_sum = 0.0
     for item in num_list:
         total_sum += item
-    mean = total_sum/len(num_list)
+    mean = total_sum / len(num_list)
     return mean
 
 
